@@ -1,0 +1,3 @@
+stop_id,name,lat,long,[route_id+direction;...]
+00,testStop,00,00,[00+inbound;100+outbound]
+01,testStop2,00,00,[00+inbound;100+outbound]
