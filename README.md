@@ -7,6 +7,5 @@ Collaborators:\
 @anjuotsuka\
 @chengmo23\
 @DinethP\
-
 Live Demo:\
 http://wanderbushk.herokuapp.com/
