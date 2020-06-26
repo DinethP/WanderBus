@@ -6,6 +6,6 @@ Collaborators:\
 @yousifm\
 @anjuotsuka\
 @chengmo23\
-@DinethP\
+@DinethP\\
 Live Demo:\
 http://wanderbushk.herokuapp.com/
