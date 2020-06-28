@@ -6,6 +6,25 @@ body,
   width: 100%;
 }
 
+.parent-div {
+  position: relative;
+  height:100%;
+  width: 100%
+}
+
+.background {
+  position: absolute;
+  height: 100%; 
+  width:100%;
+  background: #EECDA3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* filter:blur(80px); */
+  opacity: 0.7;
+  z-index: -1;
+}
+
 .header-link {
   margin: 30px;
   font-size: 16px;
@@ -16,6 +35,15 @@ body,
   margin-left: 0;
 }
 
+.navbar-collapse .login-status a.nav-link{
+  margin-left: -1em;
+}
+
+.navbar-collapse .searchbar {
+  margin-left: -1em;
+}
+
+
 .header-link:hover {
   text-decoration: none;
   color: #2699fb;
@@ -23,7 +51,7 @@ body,
 
 .header {
   width: 100%;
-  background-color: #034986;
+  background-color: #434343;
   min-height: 6vh;
 }
 
@@ -106,8 +134,11 @@ body,
 }
 
 .btn-primary {
-  background-color: #034986;
-  margin: 0.2em
+  background-color: #E27D60;
+  margin: 0.2em;
+  /* border-radius: 15px; */
+  border: none;
+  font-size: 1.5vw;
 }
 
 .btn-primary:focus {
@@ -115,14 +146,15 @@ body,
 }
 
 .title-text {
-  color: #034986;
+  color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 30px;
 }
 
 .grey-container {
-  background-color: #efefef;
-  padding: 20px;
+  width: 100%;
+  background-color: #434343;
+  padding: 0.7em;
   border-radius: 10px;
 }
 
@@ -240,4 +272,8 @@ body,
 
 td > .form-group {
   margin: 0px;
+}
+
+.form-label {
+  color:#FFFFFF; 
 }

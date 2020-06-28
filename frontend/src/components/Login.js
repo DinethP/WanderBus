@@ -76,15 +76,17 @@ const Login = (props) => {
             required
           />
         </Form.Group>
-        <Button variant="primary" type="submit">
-          Login
-      </Button>
+        <Form.Row>
+          <Button variant="primary" type="submit">
+            Login
+          </Button>
+          <Link to={`${process.env.PUBLIC_URL}/admin`}>
+            <Button variant="primary">
+              Admin Login
+            </Button>
+          </Link>
+        </Form.Row>
       </Form>
-      <Link to={`${process.env.PUBLIC_URL}/admin`}>
-        <Button variant="primary">
-          Admin Login
-        </Button>
-      </Link>
     </div>
   );
 };
