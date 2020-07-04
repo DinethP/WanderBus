@@ -9,7 +9,8 @@ const handleErr = require("./commonUtils").handleErr;
 const PORT = process.env.PORT || 5000;
 
 
-const dbUri = process.env.MONGODB_URI;
+// const dbUri = process.env.MONGODB_URI;
+const dbUri = 'mongodb+srv://Enigma29:Youtube321%23@cluster0-nck9p.mongodb.net/<dbname>?retryWrites=true&w=majority';
 
 mongoose.connect(dbUri, { useNewUrlParser: true }).then(() => {
   init(() => {
