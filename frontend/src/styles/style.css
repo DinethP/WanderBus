@@ -9,19 +9,22 @@ body,
 .parent-div {
   position: relative;
   height:100%;
-  width: 100%
+  width: 100%;
+  display: flex;
+  align-items: stretch;
 }
 
 .background {
-  position: absolute;
-  height: 100%; 
+  position: fixed;
+  height: 100vh; 
   width:100%;
-  background: #EECDA3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* overflow: auto; */
+  background: #16a085; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #16a085, #f4d03f); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #16a085, #f4d03f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   /* filter:blur(80px); */
-  opacity: 0.7;
+  opacity: 0.6;
   z-index: -1;
 }
 
@@ -36,13 +39,21 @@ body,
 }
 
 .navbar-collapse .login-status a.nav-link{
-  margin-left: -1em;
+  margin-left: -0.9em;
 }
 
 .navbar-collapse .searchbar {
   margin-left: -1em;
+  display: flex;
 }
 
+.brand {
+  font-size: 1vw;
+  background-color:#227093;
+  color: blue;
+  border-radius: 7px;
+  padding: 0.1em 0.3em;
+}
 
 .header-link:hover {
   text-decoration: none;
@@ -122,7 +133,11 @@ body,
 }
 .loc-table {
   table-layout: fixed;
+  background-color:#FFFFFF;
+  border-radius:10px;
+    -moz-border-radius:10px;
 }
+
 @media only screen and (max-width: 600px) {
   th {
     font-size: 2vw;
@@ -138,7 +153,7 @@ body,
   margin: 0.2em;
   /* border-radius: 15px; */
   border: none;
-  font-size: 1.5vw;
+  font-size: calc(9px + 0.6vw);
 }
 
 .btn-primary:focus {
