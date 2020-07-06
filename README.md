@@ -8,5 +8,6 @@ Collaborators:\
 @chengmo23\
 @DinethP\
 
-Live Demo:\
+Live Demo:\\
+P.S. Heoku free dyno takes about 10 seconds to load the website initially\
 http://wanderbushk.herokuapp.com/
