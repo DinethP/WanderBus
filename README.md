@@ -1,13 +1,13 @@
 # WanderBus
-A Hong Kong public bus transportation application that helps users organise their daily travels.\
-Group project of CSCI2720 at The Chinese University of Hong Kong (2020).
+A Hong Kong public bus transportation application that helps users organise their daily travels.<br/>
+Group project of CSCI2720 at The Chinese University of Hong Kong (2020).<br/>
 
-Collaborators:\
-@yousifm\
-@anjuotsuka\
-@chengmo23\
-@DinethP\
+Collaborators:<br/>
+@yousifm<br/>
+@anjuotsuka<br/>
+@chengmo23<br/>
+@DinethP<br/><br/>
 
-Live Demo:\\
-P.S. Heoku free dyno takes about 10 seconds to load the website initially\
+Live Demo:<br/><br/>
+P.S. Heoku free dyno takes about 15 seconds to load the website initially<br/>
 http://wanderbushk.herokuapp.com/
